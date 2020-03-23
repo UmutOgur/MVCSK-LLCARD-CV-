@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yetenek Kartı", "Yetenek Kartı\Yetenek Kartı.csproj", "{095B847C-12E8-4772-8085-6C9574A12AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{095B847C-12E8-4772-8085-6C9574A12AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095B847C-12E8-4772-8085-6C9574A12AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095B847C-12E8-4772-8085-6C9574A12AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095B847C-12E8-4772-8085-6C9574A12AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8E6978D-5947-4DE6-AE23-B8A1B6A7997B}
+	EndGlobalSection
+EndGlobal

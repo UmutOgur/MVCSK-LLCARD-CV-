@@ -1,0 +1,23 @@
+﻿@model Yetenek_Kartı.Models.Siniflar.Yetenek
+@{
+    ViewBag.Title = "YetenekGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div>
+        <label>Yetenek Açıklama</label>
+        @Html.TextBoxFor(x => x.Açiklama, new { @class = "form-control" })
+    </div>
+    </br>
+    <div>
+        <label>Yetenek Değeri</label>
+        @Html.TextBoxFor(x => x.deger, new { @class = "form-control" })
+    </div>
+    </br>
+    <div>
+        <button class="btn btn-success">GÜNCELLE</button>
+
+    </div>
+</form>
+

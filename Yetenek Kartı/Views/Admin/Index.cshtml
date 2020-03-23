@@ -1,0 +1,30 @@
+﻿@using Yetenek_Kartı.Models.Siniflar
+@model  List<Yetenek>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>YENETENEK</th>
+            <th>DEĞER</th>
+            <th>SİL</th>
+            <th>GÜNCELLE</th>
+
+        </tr>
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.Açiklama</td>
+        <td>@item.deger</td>
+        <td><a href="/Admin/YetenekSil/@item.Id" class="btn btn-danger" >SİL</a></td>
+        <td><a href="/Admin/YetenekGetir/@item.Id" class="btn btn-success">GÜNCELLE</a></td>
+    </tr>
+        }
+
+
+    </table>
+
